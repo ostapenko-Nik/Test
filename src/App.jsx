@@ -8,6 +8,8 @@ import Sections from './components/sections';
 import { Routes, Route, useLocation } from "react-router-dom";
 import Schedule from './components/schedule';
 
+
+
 function App() {
   const location = useLocation(); 
 
