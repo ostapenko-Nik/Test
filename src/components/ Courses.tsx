@@ -21,9 +21,9 @@ export default function Courses() {
   return (
    <div className="flex flex-col items-center min-h-screen text-center p-8 mt-[50px]">
 
-      <h1 className="text-4xl font-bold mb-6">Курсы из базы данных</h1>
+      <h1 className="text-4xl font-bold mb-6 " style={{ textShadow: "0px 0px 20px #00f7ff",color: "#00f7ff", }}>Курсы из базы данных</h1>
       {courses.length === 0 ? (
-        <p className="text-gray-500">Загрузка...</p>
+        <p className="text-gray-500 " style={{ textShadow: "0px 0px 20px #00f7ff" ,color: "#00f7ff",}}>Загрузка...</p>
       ) : (
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {courses.map((course) => (

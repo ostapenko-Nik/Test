@@ -35,9 +35,9 @@ export default function Sections() {
 
   return (
     <div className="flex flex-col items-center text-center p-8 mt-[100px]">
-      <h1 className="text-4xl font-bold mb-6">Секции</h1>
+      <h1 className="text-4xl font-bold mb-6 " style={{ textShadow: "0px 0px 20px #00f7ff" ,color: "#00f7ff",}}>Секции</h1>
       {sections.length === 0 ? (
-        <p className="text-gray-500">Пока нет доступных секций.</p>
+        <p className="text-gray-500 " style={{ textShadow: "0px 0px 20px #00f7ff", color: "#00f7ff", }}>Пока нет доступных секций.</p>
       ) : (
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {sections.map((section) => (
